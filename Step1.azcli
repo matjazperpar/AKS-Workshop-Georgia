@@ -32,4 +32,11 @@ az aks create --resource-group $group \
 
 
 # Connect to AKS Cluster with kubectl
+az aks get-credentials --resource-group $group --name $name
 
+
+# Play around with kubectl
+kubectl get nodes
+kubectl get nodes -o wide
+kubectl get namespaces
+kubectl get pods --all-namespaces  -o wide
