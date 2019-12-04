@@ -4,7 +4,7 @@ metadata:
   name: frontend
 spec:
   rules:
-  - host: frontend.52.136.235.205.nip.io
+  - host: frontend.40.68.197.143.nip.io
     http:
       paths:
       - backend:
